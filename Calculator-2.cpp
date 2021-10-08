@@ -8,19 +8,19 @@ int szam2;
 
 int main() {
 
-	cout << "Kerek egy egesz szamot! ";
+	cout << "Give me a whole number! ";
 	cin >> szam1;
 
-	cout << "Kerek megegy valos szamot! ";
+	cout << "Give me another whole number! ";
 	cin >> szam2;
 
-	cout << "Szamok osszeadasanak osszege: " << szam1 + szam2 << endl;
-	cout << "Szamok kivonasanak eredmenye: " << szam1 - szam2 << endl;
+	cout << ":Results of the addition " << szam1 + szam2 << endl; 
+	cout << "Results of the extraction: " << szam1 - szam2 << endl;
 
-	cout << "Szamok szorzasanak eredmenye:" << szam1 * szam2 << endl;
-	cout << "Szamok osztasanak eredmenye:" << szam1 / szam2 << endl;
+	cout << "Results of the multiplication:" << szam1 * szam2 << endl;
+	cout << "Results of the division:" << szam1 / szam2 << endl;
 
-	cout << "A kovetkezo szamokat adatad meg: " << szam1 << " " << szam2 << endl;
+	cout << "These are the numbers you gave: " << szam1 << " " << szam2 << endl;
 
 	system("pause");
 	return 0;
